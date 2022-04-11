@@ -11,7 +11,8 @@ const Contatos = () => {
     const [render, setRender] = useState(false);
     const [success, setSuccess] = useState(false);
 
-    useEffect(async () => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    useEffect(async() => {
         const response = await fetch(url)
         const data = await response.json();
         setMessage(data);

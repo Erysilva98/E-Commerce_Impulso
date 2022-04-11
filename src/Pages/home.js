@@ -29,7 +29,8 @@ const HomePage = () => {
     )
 
     const category = categorys.map(JSON.stringify)
-                    .filter(function(item, index, arr){
+                    .filter(function(item, index, arr)
+                    {
                         return arr.indexOf(item, index + 1) === -1;
                     })
                     .map(JSON.parse)
@@ -37,11 +38,10 @@ const HomePage = () => {
     const arrayCategory = categorys.map(category => category.name)
     let count = { };
 
-    for(let i = 0; i < arrayCategory.length; i++){
-        {
-            let key = arrayCategory[i];
-            count[key] = (count[key] ? count[key] + 1 : 1)
-        }
+    for(let i = 0; i < arrayCategory.length; i++)
+    {
+        let key = arrayCategory[i];
+        count[key] = (count[key] ? count[key] + 1 : 1)   
     }
 
     return(
