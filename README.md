@@ -1,7 +1,19 @@
-# Getting Started with Create React App
+div# E-Commerce Projeto do Bootcamp Impulso FullStack Web Developer
 
-### `yarn start`
+## Instalando o Projeto em sua Maquina
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    - Clone o Repositório do Git em sua Maquina
+    - Instalação das dependências do Projeto
+        yarn install 
+
+### Inicializando o Projeto
+
+    - yarn start
+
+
+### Em seu Navegador Acesse:
+     http://localhost:3000
+  
+
+
 
